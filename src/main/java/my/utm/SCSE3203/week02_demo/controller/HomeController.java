@@ -8,7 +8,15 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         return "index";
-    }    @GetMapping("/about")
+    }
+
+    @GetMapping("/about")
     public String about() {
         return "about";
-    }}
+    }
+
+    @GetMapping("/profile")
+    public String profile() {
+        return "profile";
+    }
+}
